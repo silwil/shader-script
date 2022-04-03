@@ -1,0 +1,14 @@
+-- Remember, no skidding B)
+if Drawing then else return print("get a better executor lol") end
+cred = Drawing.new("Text")
+cred.Text = ("SIL SHADER SCRIPT !")
+cred.Color = Color3.new(1, 1, 1)
+cred.OutlineColor = Color3.new(0, 0, 0)
+cred.Center = true
+cred.Outline = true
+cred.Position = Vector2.new(270, 100)
+cred.Size = 20
+cred.Font = Drawing.Fonts.Monospace
+cred.Transparency = 0.9
+wait(2)
+game:GetService("Lighting").ColorCorrection.Saturation = 2
